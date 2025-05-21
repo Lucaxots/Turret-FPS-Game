@@ -3,6 +3,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Ignoruj wszystkie pliki
+*
+
+# Wyjątki: śledź pliki .cpp i .h
+!*.cpp
+!*.h
+
 # User-specific files
 *.rsuser
 *.suo
